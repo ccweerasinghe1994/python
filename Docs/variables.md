@@ -13,7 +13,7 @@ better than n, student_name is better than s_n, and name_length is better
 than length_of_persons_name.
 1.  Be careful when using the lowercase letter l and the uppercase letter O
 because they could be confused with the numbers 1 and 0.
->code
+>example
 ```python
 message = "hello world python"
 print(message)
@@ -25,4 +25,23 @@ hello python interpreter
 hello world python
 ```
 
-[Code](../intro.py)
+[Code File](../intro.py)
+
+###Side Note
+    >The Python variables you’re using at this point should be lowercase. You won’t
+    get errors if you use uppercase letters, but uppercase letters in variable names
+    have special meanings that we’ll discuss in later chapters.
+
+
+##Avoiding Name Errors when using variables
+
+```python
+Traceback (most recent call last):
+  File "E:/Code/python/python book 2nd eddition/chapter one/intro.py", line 15, in <module>
+    print(mesage)
+NameError: name 'mesage' is not defined
+```
+
+#What is `traceBack`
+A traceback is a record of
+> where the interpreter ran into trouble when trying to execute your code.

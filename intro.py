@@ -7,3 +7,7 @@ print("hello python interpreter")
 message = "hello world python"
 
 print(message)
+
+# Errors
+message = "Hello Python Crash Course reader!"
+print(mesage)
