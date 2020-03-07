@@ -4,7 +4,7 @@
 string in Python, and you can use single or double quotes around your
 strings like this***
 
->example
+>>example
 ___
 "This is a string."
 
