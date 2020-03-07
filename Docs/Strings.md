@@ -1,4 +1,4 @@
-#String
+# String
 
 ***A string is a series of characters. Anything inside quotes is considered a
 string in Python, and you can use single or double quotes around your
