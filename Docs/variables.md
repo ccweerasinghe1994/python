@@ -7,8 +7,7 @@ to separate words in variable names. For example, greeting_message
 works, but greeting message will cause errors.
 1.  Avoid using Python keywords and function names as variable names;
 that is, do not use words that Python has reserved for a particular
-programmatic purpose, such as the word print. (See “Python Keywords
-and Built-in Functions” on page 471.)
+programmatic purpose, such as the word print. 
 1.  Variable names should be short but descriptive. For example, name is
 better than n, student_name is better than s_n, and name_length is better
 than length_of_persons_name.
