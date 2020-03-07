@@ -1,5 +1,5 @@
 # python
- 1. [variables](./intro.py)
+ 1. [variables](./Docs/variables.md)
 
 
 
