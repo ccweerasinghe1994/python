@@ -38,12 +38,49 @@ variable with its value when the string is displayed.
 These strings are called `f-strings`. The f is for format, because Python
 formats the string by replacing the name of any variable in braces with its
 value. The output from the previous code is:***
+
 >> F-string example
+
 ```python
+
 print(f"Hello, {full_name.title()}!")
+
 ```
 
+___
+## Adding Whitespace to Strings with Tabs or Newlines
+***In programming, whitespace refers to any nonprinting character, such as
+spaces, tabs, and end-of-line symbols. You can use whitespace to organize
+your output so it’s easier for users to read.***
+>> example
+```python
+print("python")
+print("\tpython")
 
+```
+> output
+```python
+python
+	python
+```
+
+***You can also combine tabs and newlines in a single string. The string
+"\n\t" tells Python to move to a new line, and start the next line with a tab.***
+
+```python
+
+ print("Languages:\n\tPython\n\tC\n\tJavaScript")
+
+```
+```python
+
+Languages:
+Python
+C
+JavaScript
+
+```
+___
 
 [String.py](../String.py)
 > output
