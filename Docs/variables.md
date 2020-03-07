@@ -26,12 +26,15 @@ hello world python
 ```
 
 [Code File](../intro.py)
-
+___
 ###Side Note
-    >The Python variables you’re using at this point should be lowercase. You won’t
+___
+___
+    he Python variables you’re using at this point should be lowercase. You won’t
     get errors if you use uppercase letters, but uppercase letters in variable names
     have special meanings that we’ll discuss in later chapters.
-
+___
+___
 
 ##Avoiding Name Errors when using variables
 
