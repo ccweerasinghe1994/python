@@ -1,28 +1,27 @@
-# String
+# **String**
 
 ***A string is a series of characters. Anything inside quotes is considered a
 string in Python, and you can use single or double quotes around your
 strings like this***
 
->>example
-___
+
+```python
 "This is a string."
 
 'This is also a string.'
-___
+```
 
-> This flexibility allows you to use quotes and apostrophes within your strings:
+***This flexibility allows you to use quotes and apostrophes within your strings:***
 
->>example
-___
+```python
 'I told my friend, "Python is my favorite language!"'
 
 "The language 'Python' is named after Monty Python, not the snake."
 
 "One of Python's strengths is its diverse and supportive community."
-___
+```
 
-## using strings in  variables  
+## **using strings in  variables**
 ```python
 
 first_name = "chamara"
@@ -39,7 +38,7 @@ These strings are called `f-strings`. The f is for format, because Python
 formats the string by replacing the name of any variable in braces with its
 value. The output from the previous code is:***
 
->> F-string example
+
 
 ```python
 
@@ -48,17 +47,17 @@ print(f"Hello, {full_name.title()}!")
 ```
 
 ___
-## Adding Whitespace to Strings with Tabs or Newlines
+## **Adding Whitespace to Strings with Tabs or Newlines**
 ***In programming, whitespace refers to any nonprinting character, such as
 spaces, tabs, and end-of-line symbols. You can use whitespace to organize
 your output so it’s easier for users to read.***
->> example
+
 ```python
 print("python")
 print("\tpython")
 
 ```
-> output
+
 ```python
 python
 	python
@@ -81,7 +80,7 @@ JavaScript
 
 ```
 
-## Stripping Whitespace
+## **Stripping Whitespace**
 
 ***Extra whitespace can be confusing in your programs. To programmers
 'python' and 'python ' look pretty much the same. But to a program, they are
@@ -96,9 +95,6 @@ whitespace from data that people enter.
 Python can look for extra whitespace on the right and left sides of a
 string. To ensure that no whitespace exists at the right end of a string, use
 the rstrip() method.***
-
->> example 
-
 
 ```python
 
@@ -115,7 +111,6 @@ the rstrip() method.***
 ***To remove the whitespace from the string permanently, you have to
 associate the stripped value with the variable name:***
 
->> example 
 ```python
 
 >>> favorite_language = 'python '
@@ -127,7 +122,7 @@ associate the stripped value with the variable name:***
 
 ***You can also strip whitespace from the left side of a string using the
 lstrip() method, or from both sides at once using strip():***
->> example 
+
 ```python
 >>> favorite_language = ' python '
 >>> favorite_language.rstrip()
@@ -141,8 +136,8 @@ lstrip() method, or from both sides at once using strip():***
 
 ___
 
-[String.py](../String.py)
-> output
+[**String.py**](../String.py)
+
 ```python
 "E:\Code\python\python book 2nd eddition\chapter one\venv\Scripts\python.exe" "E:/Code/python/python book 2nd eddition/chapter one/String.py"
 Ada Lovelace
