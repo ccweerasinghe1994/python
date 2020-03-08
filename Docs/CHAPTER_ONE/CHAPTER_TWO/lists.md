@@ -161,8 +161,7 @@ print(motorcycles)
 
 ```
 
-## **Removing Elements from a List
-**
+## **Removing Elements from a List**
 ***Often, you’ll want to remove an item or a set of items from a list. For
 example, when a player shoots down an alien from the sky, you’ll most likely
 want to remove it from the list of active aliens. Or when a user decides to
@@ -265,25 +264,124 @@ print(motorcycles)
 `The remove() method deletes only the first occurrence of the value you specify. If
 there’s a possibility the value appears more than once in the list, you’ll need to
 use a loop to make sure all occurrences of the value are removed.`
-# ****
+# **Organizing a List**
+***Often, your lists will be created in an unpredictable order, because you can’t
+always control the order in which your users provide their data. Although
+this is unavoidable in most circumstances, you’ll frequently want to present
+your information in a particular order. Sometimes you’ll want to preserve
+the original order of your list, and other times you’ll want to change the
+original order. Python provides a number of different ways to organize your
+lists, depending on the situation.***
+
+
+# **Sorting a List Permanently with the sort() Method**
 ******
 ```python
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
 ```
 ```python
+['audi', 'bmw', 'subaru', 'toyota']
+```
+***You can also sort this list in reverse alphabetical order by passing the
+argument reverse=True to the sort() method. The following example sorts the
+list of cars in reverse alphabetical order:***
+```python
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort(reverse=True)
+print(cars)
+
+```
+```python
+['toyota', 'subaru', 'bmw', 'audi']
 ```
 
-# ****
-******
+# **Sorting a List Temporarily with the sorted() Function**
+***To maintain the original order of a list but present it in a sorted order, you
+can use the sorted() function. The sorted() function lets you display your list
+in a particular order but doesn’t affect the actual order of the list.***
 ```python
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+
 ```
 ```python
+Here is the original list:
+['bmw', 'audi', 'toyota', 'subaru']
+Here is the sorted list:
+['audi', 'bmw', 'subaru', 'toyota']
+Here is the original list again:
+['bmw', 'audi', 'toyota', 'subaru']
+```
+***Sorting a list alphabetically is a bit more complicated when all the values are
+not in lowercase. There are several ways to interpret capital letters when
+determining a sort order, and specifying the exact order can be more complex
+than we want to deal with at this time. However, most approaches to sorting
+will build directly on what you learned in this section.***
+
+# **Printing a List in Reverse Order**
+***To reverse the original order of a list, you can use the reverse() method. If we
+originally stored the list of cars in chronological order according to when we
+owned them, we could easily rearrange the list into reverse chronological
+order:***
+```python
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+
+```
+```python
+['bmw', 'audi', 'toyota', 'subaru']
+['subaru', 'toyota', 'audi', 'bmw']
+```
+***The reverse() method changes the order of a list permanently, but you can
+revert to the original order anytime by applying reverse() to the same list a
+second time.***
+# **Finding the Length of a List**
+***You can quickly find the length of a list by using the len() function.***
+```python
+>>> cars = ['bmw', 'audi', 'toyota', 'subaru']
+>>> len(cars)
+4
+
+```
+***Python counts the items in a list starting with one, so you shouldn’t run into any
+of -by-one errors when determining the length of a list.***
+# **Avoiding Index Errors When Working with Lists**
+***One type of error is common to see when you’re working with lists for the
+first time. Let’s say you have a list with three items, and you ask for the
+fourth item:***
+```python
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[3])
+
+motorcycles = []
+print(motorcycles[-1])
+
+
+```
+```python
+Traceback (most recent call last):
+File "motorcycles.py", line 2, in <module>
+print(motorcycles[3])
+IndexError: list index out of range
+
+Traceback (most recent call last):
+File "motorcyles.py", line 3, in <module>
+print(motorcycles[-1])
+IndexError: list index out of range
+
 ```
 
-# ****
-******
-```python
-```
-```python
-```
-
-
+***If an index error occurs and you can’t figure out how to resolve it, try printing
+your list or just printing the length of your list. Your list might look much
+dif erent than you thought it did, especially if it has been managed dynamically
+by your program. Seeing the actual list, or the exact number of items in your
+list, can help you sort out such logical errors.***
