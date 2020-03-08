@@ -297,6 +297,7 @@ print(cars)
 ['toyota', 'subaru', 'bmw', 'audi']
 ```
 
+
 # **Sorting a List Temporarily with the sorted() Function**
 ***To maintain the original order of a list but present it in a sorted order, you
 can use the sorted() function. The sorted() function lets you display your list
