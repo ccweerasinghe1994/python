@@ -275,7 +275,7 @@ lists, depending on the situation.***
 
 
 # **Sorting a List Permanently with the sort() Method**
-******
+
 ```python
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort()
