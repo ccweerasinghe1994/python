@@ -25,7 +25,7 @@ hello python interpreter
 hello world python
 ```
 
-[Code File](../intro.py)
+[Code File](../../intro.py)
 ___
 ###Side Note
 ___

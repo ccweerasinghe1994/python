@@ -136,7 +136,7 @@ lstrip() method, or from both sides at once using strip():***
 
 ___
 
-[**String.py**](../String.py)
+[**String.py**](../../String.py)
 
 ```python
 "E:\Code\python\python book 2nd eddition\chapter one\venv\Scripts\python.exe" "E:/Code/python/python book 2nd eddition/chapter one/String.py"
