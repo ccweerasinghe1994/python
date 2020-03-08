@@ -21,12 +21,19 @@
          2. [Try It Your Self](Docs/CHAPTER_ONE/try/3.md)  
 2. CHAPTER TWO 
    1. [INTRODUCING LISTS](./Docs/)
-       1. [What Is a List?](./DOCS/CHAPTER_ONE/CHAPTER_TWO/lists.md)
-       2. [Accessing Elements in a List](./DOCS/CHAPTER_ONE/CHAPTER_TWO/lists.md)
-       3. [Index Positions Start at 0, Not 1](./DOCS/CHAPTER_ONE/CHAPTER_TWO/lists.md)
-       4. [Last Element Of An Array](./DOCS/CHAPTER_ONE/CHAPTER_TWO/lists.md)
-       5. [Using Individual Values from a List](./DOCS/CHAPTER_ONE/CHAPTER_TWO/lists.md)
-       6. [](./DOCS/CHAPTER_ONE/CHAPTER_TWO/lists.md)
+       1. [What Is a List?](Docs/CHAPTER_TWO/lists.md)
+       2. [Accessing Elements in a List](Docs/CHAPTER_TWO/lists.md)
+       3. [Index Positions Start at 0, Not 1](Docs/CHAPTER_TWO/lists.md)
+       4. [Last Element Of An Array](Docs/CHAPTER_TWO/lists.md)
+       5. [Using Individual Values from a List](Docs/CHAPTER_TWO/lists.md)
+       6. [Try It Your Self](Docs/CHAPTER_TWO/try/2.md)  
+       7. [](Docs/CHAPTER_TWO/lists.md)
+       8. [](Docs/CHAPTER_TWO/lists.md)
+       9. [](Docs/CHAPTER_TWO/lists.md)
+       10. [](Docs/CHAPTER_TWO/lists.md)
+       11. [](Docs/CHAPTER_TWO/lists.md)
+       12. [](Docs/CHAPTER_TWO/lists.md)
+       13. [](Docs/CHAPTER_TWO/lists.md)
 
 
 
