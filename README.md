@@ -1,4 +1,5 @@
 # python
+##   ***The Zen of Python, by Tim Peters `Beautiful is better than ugly`.***
  1. [variables](./Docs/variables.md)
       1. [String.py](./Docs/Strings.md)
           1. [using strings in  variables](./Docs/Strings.md)
@@ -13,6 +14,9 @@
           5. [Multiple Assignment](./Docs/numbers.md) 
           6. [Constants](./Docs/numbers.md) 
           7. [Try It Your Self](./Docs/try/2.md) 
+       2. [Comments](./Docs/comments.md)
+          1. [Comments](./Docs/comments.md)
+          1. [Try It Your Self](./Docs/try/3.md)  
 
 
 
